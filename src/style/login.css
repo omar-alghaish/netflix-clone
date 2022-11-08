@@ -1,0 +1,101 @@
+.loginScreen {
+    position: relative;
+    background: url("http://wallpaperset.com/w/full/6/d/3/366121.jpg") center no-repeat;
+    object-fit: contain;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100%;
+}
+
+.loginScreen_logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.loginScreen_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+    background: red;
+}
+
+.loginScreen_gradient {
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0) 0, rgba(0, 0, 0, 0.555) 60%, rgba(0, 0, 0, 0.885) 100%)
+}
+
+.loginScreen_body {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.loginScreen_body>div>h1 {
+    font-size: 3.128rem;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.loginScreen_body>div>h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-right: 20px;
+
+}
+
+.loginScreen_body>div>h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-right: 20px;
+
+}
+
+.loginScreen_input {
+    width: 100%;
+    margin-top: 20px;
+}
+
+div>.loginScreen_input>form>input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 40%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen_getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}

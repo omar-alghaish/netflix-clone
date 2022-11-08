@@ -1,0 +1,46 @@
+.row {
+    color: white;
+    margin:0 20px;
+    margin-top: 50px;
+}
+
+.slick-slider{
+    width:100%;
+    
+}
+.slick-arrow.slick-prev{
+    display:none;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.slick-arrow.slick-next{
+    display:none;
+    position: absolute;
+    right: 0;
+}
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_poster {
+    max-height: 130px;
+    object-fit: contain;
+    margin-right: 20px;
+    transition: transform 450ms;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    padding-right: 15px;
+}
+.movie-info p:nth-child(1){
+   color:rgb(255, 166, 0)
+}
+
+.row_posterLarge {
+    max-height: 250px
+}
