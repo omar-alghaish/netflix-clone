@@ -5,6 +5,7 @@
 # Resource
 
 [Create React App](https://create-react-app.dev/)<br>
+[Firebase](https://firebase.google.com/)<br>
 [React Router](https://reactrouter.com/)<br>
 [Axios](https://axios-http.com/)<br>
 [ThemovieDB](https://www.themoviedb.org/)<br>
