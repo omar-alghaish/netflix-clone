@@ -12,10 +12,9 @@
 
 # Preview
 
+!["Responsive netflix clone"](https://alghaish-eng.web.app/netflix/i1.png "Responsive netflix clone")
 
 !["Responsive netflix clone"](https://alghaish-eng.web.app/netflix/i3.png "Responsive netflix clone")
-
-!["Responsive netflix clone"](https://alghaish-eng.web.app/netflix/i1.png "Responsive netflix clone")
 
 !["Responsive netflix clone"](https://alghaish-eng.web.app/netflix/i2.png "Responsive netflix clone")
 
